@@ -113,3 +113,11 @@ C:\nRF5_SDK_17.1.0\examples\bike_shifter\deep_sleep\pca10056\blank\ses\deep_slee
 ```
 
 После пробуждения плата стартует с функции **main**
+
+# Энкодер
+
+Пин питания AS5600 P1.08 = пин №40
+
+```
+C:\nRF5_SDK_17.1.0\examples\bike_shifter\encoder\pca10056\blank\ses\encoder.emProject
+```
