@@ -96,3 +96,20 @@ C:\nRF5_SDK_17.1.0\examples\bike_shifter\button_control\pca10056\blank\ses\butto
 ```c
    if (nrf_gpio_pin_read(button) == 1){}
 ```
+
+
+# Глубокий сон и пробуждение по движению
+
+```
+C:\nRF5_SDK_17.1.0\examples\bike_shifter\deep_sleep\pca10056\blank\ses\deep_sleep.emProject
+```
+
+Строки для того чтобы войти в Сон
+
+```
+  __SEV();
+  __WFE();
+  NRF_POWER->SYSTEMOFF = 1;
+```
+
+После пробуждения плата стартует с функции **main**
