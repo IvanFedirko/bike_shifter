@@ -74,3 +74,25 @@ C:\nRF5_SDK_17.1.0\examples\bike_shifter\led_control\pca10056\blank\ses\led_cont
 * LED_BLUE **P0.28**
 * LED_GREEN **P0.03**
 * LED_RED **P0.02**
+
+
+# Управление кнопкой (button_control)
+
+```
+C:\nRF5_SDK_17.1.0\examples\bike_shifter\button_control\pca10056\blank\ses\button_control.emProject
+```
+
+Кнопка подключена на ***P0.29 = gpio pin 29***
+
+Кнопка замыкает на **плюс**, следовательно делаем ее активной в высоком, и подключаем стягивающий резистор
+
+
+```c
+ nrf_gpio_cfg_input(button, NRF_GPIO_PIN_PULLDOWN);
+```
+
+Чтение кнопки
+
+```c
+   if (nrf_gpio_pin_read(button) == 1){}
+```
