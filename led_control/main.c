@@ -19,7 +19,6 @@ int main(void) {
   APP_ERROR_CHECK(NRF_LOG_INIT(NULL));
   NRF_LOG_DEFAULT_BACKENDS_INIT();
 
-
   nrf_gpio_cfg_output(led_red);
   nrf_gpio_cfg_output(led_green);
   nrf_gpio_cfg_output(led_blue);
@@ -27,6 +26,9 @@ int main(void) {
   nrf_gpio_pin_set(led_red);
   nrf_gpio_pin_set(led_green);
   nrf_gpio_pin_set(led_blue);
+
+  nrf_gpio_pin_clear(led_red);
+  nrf_delay_ms(1000);
 
   while (true) {
 
