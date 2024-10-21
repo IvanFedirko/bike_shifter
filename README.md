@@ -60,3 +60,17 @@ C:\nRF5_SDK_17.1.0\examples\>git clone git@github.com:IvanFedirko/bike_shifter.g
 ```
 C:\nRF5_SDK_17.1.0\examples\bike_shifter
 ```
+
+# Управление светодиодами (led_control)
+
+Откройте Решение (SEGGER: File -> Open Solution)
+
+```
+C:\nRF5_SDK_17.1.0\examples\bike_shifter\led_control\pca10056\blank\ses\led_control.emProject
+```
+
+Светодиоды подключены через VDD (active LOW), следовательно  **nrf_gpio_pin_set** - отключает, **nrf_gpio_pin_clear** - включает  и **nrf_gpio_pin_toggle** - переключает
+
+* LED_BLUE **P0.28**
+* LED_GREEN **P0.03**
+* LED_RED **P0.02**
