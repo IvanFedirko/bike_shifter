@@ -60,6 +60,11 @@ C:\nRF5_SDK_17.1.0\examples\>git clone git@github.com:IvanFedirko/bike_shifter.g
 ```
 C:\nRF5_SDK_17.1.0\examples\bike_shifter
 ```
+# RTT Логгер
+
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/oQFpEyBWAlI/0.jpg)](https://www.youtube.com/watch?v=oQFpEyBWAlI)
+
 
 # Управление светодиодами (led_control)
 
@@ -131,3 +136,6 @@ C:\nRF5_SDK_17.1.0\examples\bike_shifter\encoder\pca10056\blank\ses\encoder.emPr
 **Напряжение = AIN7 * 3**
 
 **Ток = AIN6 / 0.02**
+
+
+# Стоп Сигнал, управление мотором
