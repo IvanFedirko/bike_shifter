@@ -121,3 +121,13 @@ C:\nRF5_SDK_17.1.0\examples\bike_shifter\deep_sleep\pca10056\blank\ses\deep_slee
 ```
 C:\nRF5_SDK_17.1.0\examples\bike_shifter\encoder\pca10056\blank\ses\encoder.emProject
 ```
+
+
+# Чтение тока и напряжения
+
+* AIN6 - для вычисления тока
+* AIN7 - для вычисления напряжение
+
+**Напряжение = AIN7 * 3**
+
+**Ток = AIN6 / 0.02**
