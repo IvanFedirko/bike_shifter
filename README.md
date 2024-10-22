@@ -130,6 +130,10 @@ C:\nRF5_SDK_17.1.0\examples\bike_shifter\encoder\pca10056\blank\ses\encoder.emPr
 
 # Чтение тока и напряжения
 
+```
+C:\nRF5_SDK_17.1.0\examples\bike_shifter\current_and_voltage\pca10056\blank\ses\current_and_voltage.emProject
+```
+
 * AIN6 - для вычисления тока
 * AIN7 - для вычисления напряжение
 
@@ -139,3 +143,28 @@ C:\nRF5_SDK_17.1.0\examples\bike_shifter\encoder\pca10056\blank\ses\encoder.emPr
 
 
 # Стоп Сигнал, управление мотором
+
+```
+C:\nRF5_SDK_17.1.0\examples\bike_shifter\l2293qtr\pca10056\blank\ses\l2293qtr.emProject
+```
+
+![L2293QTR](assets/imgs/L2293QTR.jpg)
+
+
+![L2293QTR_schematic](assets/imgs/L2293QTR_schematic.jpg)
+
+![L2293QTR_truth_table](assets/imgs/L2293QTR_truth_table.jpg)
+
+* OUT_1 - мотор
+* OUT_2 - мотор
+* OUt_3 - стоп-сигнал
+  
+  <br/>
+
+* EN_1 - nRF P1.11 (43)
+* EN_2 - U6 (VOUT)
+  <br/>
+
+* IN_1 (FWD) - nRF P1.12 (44)
+* IN_2 (REV) - nRF P1.13 (45)
+* IN_3 (LED) - nRF P1.14 (46)
